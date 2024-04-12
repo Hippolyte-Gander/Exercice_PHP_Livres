@@ -13,15 +13,18 @@ class Auteur {
         $this->livres = [];
     }
     
+    //renvoie "Prénom Nom" d'un auteur
     public function __toString() {
         return "$this->prenom $this->nom";
     }
     
+    //ajoute un livre à l'array "livres"
     public function ajoutlivre(Livre $livres) {
         $this->livres[] = $livres;
         //array_push($this->livres, $livre);    vieille méthode
     }
 
+    // fonction pour afficher la bibliographie d'un auteur
     public function bibliographie() {
         $result = "<h1>Livres de $this</h1><br>";
         foreach ($this->livres as $livre) {

@@ -17,22 +17,17 @@ class Livre {
         $this->prix = $prix;
         $this->codeLivre = $codeLivre;
     }
-
+    
+    //renvoie "Titre (année)"
     public function __toString() {
         return "$this->titre (". $this->dateParution->format("Y") . ")";
     }
-    
+
+    // fonction pour afficher les informations d'un livre (nbr pages et prix)
     public function getInfos() {
         return $this->nombrePages . " pages / " . $this->prix . "€<br>";
         }
  
-    
-    
-
-    
-     
-    
-    
     
     # Fin des Getter and Setter----------------------------------
     public function getAuteur(): Auteur
