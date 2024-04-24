@@ -1,4 +1,4 @@
-# Exercice_PHP_Livres dans le cadre de ma foration au titre professionnel de dev web / web mobile.
+# Exercice_PHP_Livres dans le cadre de ma formation au titre professionnel de dev web / web mobile.
 Exercice qui a pour but de prendre en main la POO sur PHP.
 
 Vous êtes chargé(e) de créer un projet orienté objet permettant de gérer des livres et 
